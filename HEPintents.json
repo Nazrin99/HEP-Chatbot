@@ -1,0 +1,392 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+          "Hello",
+          "Hi",
+          "Hello, how are you today?",
+          "Hai there, how's it going?",
+          "Good day, how have you been?",
+          "Hey, what's up?",
+          "Hai, how are things?",
+          "Good day, how are you?",
+          "Hey there, how's everything?",
+          "Hello, how have you been doing?",
+          "Ola, how's your day going?",
+          "Good day, how are you feeling today?",
+          "Hey, how's life treating you?",
+          "Hello, what's new with you?",
+          "Hi, how are you holding up?",
+          "Good day, how's everything going?",
+          "Hey, how's your day been so far?",
+          "Hi there, what's going on?",
+          "Hello, how have you been lately?",
+          "Good day, what's up?",
+          "Hey, how's it been?",
+          "Hi, how's your week going?",
+          "Hello, how's your day shaping up?",
+          "Hi, how have things been?",
+          "Hey, how are you doing today?",
+          "Good day, what's happening?",
+          "Hello, how's everything with you?",
+          "Hi there, how's your week been?",
+          "Hey, what's new with you?",
+          "Hello, how are you feeling today?",
+          "Hi, what's going on with you?",
+          "Good afternoon, how's your day?",
+          "Hey, how's life?",
+          "Hi, what's happening in your world?",
+          "Hello, how are you this fine day?",
+          "Hi, what have you been up to?",
+          "Hey there, how's your day treating you?",
+          "Good day, how have you been?",
+          "Hello, how's everything on your end?",
+          "Hi, how's your day unfolding?",
+          "Hey, how are things with you?",
+          "Hello, what's been going on with you?"
+        ],
+            "responses": [
+        "Hello! I'm doing well, thanks. Do you have any questions for me?",
+        "Hi there! I'm good, how about you? Is there anything you need to ask?",
+        "Good morning! I'm fine, thank you. Do you have any questions?",
+        "Hey! I'm doing great, thanks. Is there something you'd like to know?",
+        "Hi! I'm well, thanks for asking. Do you have any questions for me?",
+        "Good afternoon! I'm good, how can I help you today? Any questions?",
+        "Hello! I'm fine, thank you. Do you have any questions on your mind?",
+        "Hi there! I'm doing well. Is there anything you want to ask?",
+        "Hey! I'm great, thanks. Do you have any questions for me?",
+        "Good evening! I'm well, thanks. Do you have any questions you need answered?",
+        "Hi! I'm doing well, thank you. Is there anything you'd like to ask?",
+        "Hello! I'm fine, thanks. Do you have any questions you need help with?",
+        "Good morning! I'm great, how about you? Any questions you have?",
+        "Hey! I'm good, thank you. Do you have any questions for me today?",
+        "Hi there! I'm well, how can I assist you? Any questions?",
+        "Hello! I'm doing fine, thanks. Is there something you want to ask?",
+        "Hi! I'm great, thanks for asking. Do you have any questions?",
+        "Good afternoon! I'm well, is there anything you'd like to know?",
+        "Hey! I'm doing well, how can I help you? Any questions?",
+        "Hello! I'm good, thank you. Do you have any questions or concerns?"
+        ]
+        },
+        {
+            "tag": "thank you",
+            "patterns": [
+              "Tq",
+              "Thx",
+              "Thanks",
+              "Thank you!",
+              "Thanks a lot!",
+              "I appreciate it!",
+              "Thanks for your help!",
+              "Thank you so much!",
+              "You're a lifesaver, thanks!",
+              "Thanks for the information!",
+              "Thank you, this is very helpful!",
+              "I really appreciate your assistance!",
+              "Thanks, you've been very helpful!",
+              "Thanks, that clears things up!",
+              "Thank you for your help!",
+              "Awesome, thanks!",
+              "Thank you, I appreciate it!",
+              "Many thanks!"
+            ],
+            "responses": [
+              "You're welcome! If you have any more questions, feel free to ask.",
+              "Glad I could help! For further assistance, let me know.",
+              "Anytime! If you need more information, just ask.",
+              "No problem! If you have more questions, I'm here.",
+              "Happy to help! Don't hesitate to ask if you need anything else.",
+              "You're welcome! If you have any suggestions or feedback, please let me know.",
+              "I'm glad I could assist you. Feel free to ask more questions.",
+              "Anytime! If you have any suggestions for improvement, let us know.",
+              "No problem at all! For any further questions, you can ask them here.",
+              "Happy to help! We value your feedback and questions, so feel free to share."
+            ]
+        },
+        {
+            "tag": "application document",
+            "patterns": [
+                "What paperwork is needed for the application?",
+                "Which documents do I need to apply?",
+                "Can you tell me the documents required for the application process?",
+                "What are the necessary documents for applying?",
+                "What do I need to submit for the application?",
+                "What are the required documents to apply?",
+                "Which papers are needed for the application?",
+                "What documents should I prepare for the application?"
+            ],
+            "responses": [
+                "A complete online application should include: - Recent passport-size photos with a blue background; - Certified copies of the passport (first page only, showing photo, owner details, and validity) or Identity Card; - Certified copies of academic certificates along with detailed academic transcripts/results for Higher School Certificate (HSC), Grade 12, or GCE (A' Level), or Diploma from recognized institutions. An official translation is required for documents not in English or Malay; - Certified copies of TOEFL/IELTS scores or other equivalent exams indicating English proficiency (if available); - A letter of guarantee from the sponsor for students who are sponsored;",
+                "For a complete online application, the following documents are required: - Recent passport-size photographs with a blue background; - Certified copies of your passport (first page only, including photo, owner details, and validity) or Identity Card; - Certified copies of academic certificates with detailed academic transcripts/results for Higher School Certificate (HSC), Grade 12, or GCE (A' Level), or Diploma from recognized institutions. Official translations are needed for documents in languages other than English or Malay; - Certified copies of TOEFL/IELTS scores or equivalent examinations showing English proficiency (if available); - A sponsorship letter of guarantee for students with sponsors;",
+                "To complete the online application, ensure you have: - Recent passport-size photographs with a blue background; - Certified copies of your passport (first page only, showing the photo, owner details, and validity) or Identity Card; - Certified copies of academic certificates with detailed transcripts/results for Higher School Certificate (HSC), Grade 12, or GCE (A' Level), or Diploma from recognized institutions. If the documents are not in English or Malay, an official translation is required; - Certified copies of TOEFL/IELTS scores or other equivalent exams indicating English proficiency (if available); - A letter of guarantee from the sponsor if you are a sponsored student;",
+                "A complete application must include: - Recent passport-size photographs with a blue background; - Certified copies of the passport (first page only, including photo, owner details, and validity) or Identity Card; - Certified copies of academic certificates with detailed academic transcripts/results for Higher School Certificate (HSC), Grade 12, or GCE (A' Level), or Diploma from recognized institutions. An official translation is required for non-English or non-Malay documents; - Certified copies of TOEFL/IELTS or equivalent exam results indicating English proficiency (if available); - A letter of guarantee from the sponsor for sponsored students;",
+                "For a full online application, the required documents are: - Recent passport-size photographs with a blue background; - Certified copies of the passport (first page only, showing photo, owner details, and validity) or Identity Card; - Certified copies of academic certificates and detailed academic transcripts/results for Higher School Certificate (HSC), Grade 12, or GCE (A' Level), or Diploma from recognized institutions. If the native language is not English or Malay, an official translation is needed; - Certified copies of TOEFL/IELTS scores or equivalent exams indicating English proficiency (if available); - A letter of guarantee from the sponsor for sponsored students;"
+            ]
+        },
+        {
+            "tag":  "tuition fees",
+            "patterns": [
+                "What is the estimated tuition fee for each course? How frequently are tuition fees due and what is the payment amount each time?",
+                "Can you provide the approximate cost of tuition for each course? How often are payments required and what is the amount per payment?",
+                "What are the tuition fees for each course? How regularly do I need to make payments and what is the payment amount?",
+                "How much is the tuition fee per course? When are the tuition fees due and what is the payment amount?",
+                "What is the tuition fee for each course? How often do I need to pay the fees and what is the amount for each payment?",
+                "What are the approximate tuition fees for each course? How often must tuition fees be paid and what is the amount each time?",
+                "Can you tell me the tuition fees for each course? How frequently must I pay and what is the payment amount?",
+                "What is the cost of tuition for each course? How often are payments made and what is the amount each time?",
+                "How much does each course cost in tuition? How often do I need to make tuition payments and how much is each payment?",
+                "What is the estimated tuition for each course? How regularly are payments due and how much do I need to pay each time?"
+            ],
+            "responses": [
+                "For details regarding tuition fees, please visit the respective pages of the [Marketing Centre (MC)](https://masd.um.edu.my/) on the Study website. Payments can be made on a semester basis. For the average payment for each program and semester, please refer to our website.",
+                "To find information about tuition fees, please check the relevant pages of the [Marketing Centre (MC)](https://masd.um.edu.my/) on our Study website. Payments are processed on a semester basis. For the average payment per program and semester, please consult our website.",
+                "For information on tuition fees, please visit the [Marketing Centre (MC)](https://masd.um.edu.my/) pages on the Study website. Payments are scheduled by semester. To find the average payment amount for each program and semester, please refer to our website.",
+                "To learn about tuition fees, please refer to the [Marketing Centre (MC)](https://masd.um.edu.my/) pages on the Study website. Payments are made on a semester basis. For average payment details per program and semester, please visit our website",
+                "For information about tuition fees, please check the relevant pages of the [Marketing Centre (MC)](https://masd.um.edu.my/) on our Study website. Payments are due per semester. To get an idea of the average payment for each program and semester, please see our website.",
+                "These variations provide the same information about where to find details on tuition fees, how payments are structured (by semester), and where to find specific payment averages for each program and semester on the website."
+            ]
+        },
+        {
+            "tag":  "application acceptance",
+            "patterns": [
+                "How will I be notified if I am accepted to UM?",
+                "What are the indicators that I have been accepted to Universiti Malaya?",
+                "How can I confirm my acceptance to UM?",
+                "What are the steps to find out if I have been accepted at Universiti Malaya?",
+                "How do I check my acceptance status at UM?",
+                "What notification method does UM use to inform accepted applicants?",
+                "How will I receive confirmation of my admission to UM?",
+                "How do I know if I have been admitted to Universiti Malaya?",
+                "How will I be informed about my acceptance to UM?",
+                "What is the process for knowing my admission status at UM?"
+            ],
+            "responses": [
+                "The acceptance process at Universiti Malaya (UM) involves evaluating every online application within five (5) working days. Only successful applicants will receive notifications via EMAIL offering them a place to study at UM.",
+                "To ascertain your admission status at Universiti Malaya (UM), please be aware that each online application undergoes evaluation over a period of five (5) working days. Successful applicants will be notified of their acceptance via EMAIL.",
+                "Admission decisions at Universiti Malaya (UM) are communicated through EMAIL within five (5) working days after the completion of online application evaluations. Only successful applicants will receive notifications offering them enrollment at UM.",
+                "Applicants to Universiti Malaya (UM) can expect to receive notifications regarding their admission status via EMAIL within five (5) working days after the completion of application evaluations. Successful candidates will be offered enrollment at UM.",
+                "At Universiti Malaya (UM), all online applications are evaluated within five (5) working days. Applicants who are successful will receive notifications via EMAIL regarding their admission to study at UM."
+            ]
+        },
+        {
+            "tag": "um semesters",
+            "patterns": [
+                "How many semesters or intakes does Universiti Malaya (UM) have?",
+                "What is the number of semesters or intakes available at UM?",
+                "How often does UM conduct its semesters or intakes?",
+                "How many academic terms does UM have each year?",
+                "What is the frequency of semester starts at UM?",
+                "How often does UM admit new students?",
+                "What are the semester cycles like at UM?",
+                "How many sessions does UM have per year?",
+                "What is the intake schedule for UM?",
+                "How many times does UM enroll new students annually?"
+            ],
+            "responses": [
+                "Universiti Malaya (UM) offers two semesters or intakes annually: Semester I, which starts in September, and Semester II, commencing in February.",
+                "UM has two main semester or intake periods: Semester I begins in September, and Semester II starts in February.",
+                "At UM, there are two primary semester or intake sessions: Semester I, which begins in September, and Semester II, starting in February.",
+                "UM schedules its academic year into two main semesters or intakes: Semester I (September intake) and Semester II (February intake).",
+                "Universiti Malaya (UM) structures its academic calendar around two key semesters or intakes: Semester I starts in September, and Semester II begins in February."
+            ]
+        },
+        {
+            "tag": "freshies housing",
+            "patterns": [
+                "Will there be on-campus housing options available for incoming freshmen?",
+                "Are there dormitories available for new students on campus?",
+                "Can freshies expect to find accommodation on campus?",
+                "Is there housing provided on campus for first-year students?",
+                "What are the accommodation options like for new students on campus?",
+                "Are there colleges available for incoming freshmen?",
+                "Will there be dorms or residences for new students at the university?",
+                "Is on-campus housing available for freshmen?",
+                "What are the living arrangements for new students on campus?"
+            ],
+            "responses": [
+                "Yes, students will be provided with accommodation for their first year of studies.",
+                "Students can expect to receive accommodation for their first year of studies.",
+                "Accommodation will be provided to students during their first year of studies.",
+                "Yes, there will be accommodation available for students throughout their first year of studies.",
+                "Students will receive accommodation for their first year of studies."
+            ]
+        },
+        {
+            "tag": "apply transcript",
+            "patterns": [
+                "How can I request a copy of my academic transcript?",
+                "What is the process for obtaining an official transcript?",
+                "How do I access my academic transcript?",
+                "Where can I find information on obtaining my transcript?",
+                "What steps do I need to take to get my transcript?",
+                "How do I obtain an official copy of my transcript?",
+                "What is the procedure for receiving my academic transcript?",
+                "Where do I go to request a transcript of my academic record?",
+                "How can I obtain my transcript from the university?",
+                "What are the requirements to obtain my academic transcript?"
+            ],
+            "responses": [
+                "To obtain a copy of your academic transcript from the Examination and Graduation Division, you need to submit an official request in writing, signed by you. The request should include your full name as it appears on your degree, the type of degree awarded, and the year of graduation. Specify the number of copies you require and provide the estimated address for the transcripts to be mailed.",
+                "The Examination and Graduation Division requires a formal written request, signed by you, to process and release your academic transcript. Your request must include your name as it appears on your degree, details of the degree awarded and the year of graduation, the number of copies needed, and the mailing address where you want the transcripts sent.",
+                "In order for the Examination and Graduation Division to issue your academic transcript, they require an official written request signed by you. Include in your request your full name as stated on your degree, the specific degree received along with the graduation year, the quantity of transcripts needed, and the mailing address for delivery.",
+                "To receive your academic transcript from the Examination and Graduation Division, you must submit a formal request in writing, signed by yourself. Your request should specify your name exactly as it appears on your degree, the type of degree earned, the year of graduation, the number of copies required, and the address where you wish the transcripts to be sent.",
+                "The Examination and Graduation Division mandates a written request signed by you to process and issue your academic transcript. Ensure your request includes your full name as it appears on your degree, the degree awarded and year of graduation, the quantity of transcripts needed, and the mailing address for dispatching the transcripts."
+            ]
+        },
+        {
+            "tag": "receive transcript duration",
+            "patterns": [
+                "What is the estimated timeframe for receiving my academic transcript?",
+                "How long does it typically take to process and deliver my transcript?",
+                "When can I expect to receive my transcript after submitting a request?",
+                "How many days does it usually take to receive my official transcript?",
+                "What is the turnaround time for processing and mailing my transcript?",
+                "How soon will I receive my transcript once I've requested it?",
+                "What is the expected delivery time for my academic transcript?",
+                "How much time does it take for the Examination and Graduation Division to send my transcript?",
+                "When should I anticipate receiving my transcript after placing an order?",
+                "How many business days does it usually take to receive my academic transcript?"
+            ],
+            "responses": [
+                "The Examination and Graduation Division aims to process requests within 3-7 working days upon receipt of a signed request and processing fee. Additional time should be allowed for the delivery of transcripts, particularly to international destinations. Processing times may vary slightly, especially during the Main Examination Periods in May/June and Dec/Jan.",
+                "To process your transcript request, the Examination and Graduation Division typically requires 3-7 working days upon receiving a signed request along with the necessary processing fee. Please consider additional time for the mailing of transcripts, especially for overseas deliveries. During peak periods such as the Main Examination Periods in May/June and Dec/Jan, processing times may be slightly longer.",
+                "Upon receiving a signed request and processing fee, the Examination and Graduation Division aims to process transcript requests within 3-7 working days. Please anticipate additional time for the dispatch of transcripts, especially for international destinations. Note that processing times may be extended during peak periods like the Main Examination Periods in May/June and Dec/Jan.",
+                "The Examination and Graduation Division strives to process requests for transcripts within 3-7 working days upon receiving a signed request and processing fee. Allow extra time for the delivery of transcripts, particularly for shipments overseas. Processing times may vary, especially during peak seasons such as the Main Examination Periods in May/June and Dec/Jan.",
+                "Upon receipt of a signed request and processing fee, the Examination and Graduation Division endeavors to process transcript requests within 3-7 working days. Please consider additional time for the mailing of transcripts, especially for international addresses. Note that processing times may be prolonged during peak periods, such as the Main Examination Periods in May/June and Dec/Jan, and for transcripts of academic records prior to 1996 which are not computerized."
+            ]
+        },
+        {
+            "tag": "register course",
+            "patterns": [
+                "What is the procedure for registering courses each semester?",
+                "How do I enroll in courses for every semester?",
+                "Where can I find information on course registration for each semester?",
+                "What are the steps involved in registering for courses every semester?",
+                "How can I sign up for classes each semester?",
+                "When and where do I register for courses every semester?",
+                "What is the process to choose my classes for each semester?",
+                "How do I select my courses for every academic term?",
+                "Where do I go to complete my course registration each semester?",
+                "What is required to register for courses every semester?"
+            ],
+            "responses": [
+                "Students use the website MAYA to register for their courses. Please visit [MAYA](https://maya.um.edu.my/) for more info.",
+                "The course registration process for students is conducted via the website MAYA at [MAYA](https://maya.um.edu.my/)",
+                "Registration for courses by students is handled through the website MAYA at [MAYA](https://maya.um.edu.my/)",
+                "Students access and register for courses using the website MAYA at [MAYA](https://maya.um.edu.my/)",
+                "Course registration for students is managed through the website MAYA at [MAYA](https://maya.um.edu.my/)"
+            ]
+        },
+        {
+            "tag": "credits per semester",
+            "patterns": [
+                "What is the limit on credit hours I can enroll in per semester?",
+                "How many credit hours can I register for in a single semester?",
+                "What is the maximum number of credits allowed per semester?",
+                "Is there a cap on the credit hours I can take each semester?",
+                "What is the maximum credit load permitted per semester?",
+                "How many credits am I allowed to take in one academic term?",
+                "What is the ceiling for credit hours per semester?",
+                "How much coursework can I undertake per semester in terms of credit hours?",
+                "What is the highest credit hour limit for one semester?",
+                "Is there a restriction on the number of credit hours I can take per term?"
+            ],
+            "responses": [
+                "The maximum number of credits a student can take is 22 credits during the Normal Semester and 11 credits during the Special Semester. This count excludes credits for audit courses. During an Academic Probationary Period, students are limited to registering for no more than 15 credits in the Normal Semester and 9 credits in the Special Semester.",
+                "Students can enroll in a maximum of 22 credits per Normal Semester and 11 credits per Special Semester, excluding audit course credits. During Academic Probationary Periods, the limit is 15 credits for the Normal Semester and 9 credits for the Special Semester.",
+                "In the Normal Semester, students may take up to 22 credits and up to 11 credits in the Special Semester, excluding audit courses. During an Academic Probationary Period, the limit is set at 15 credits for the Normal Semester and 9 credits for the Special Semester.",
+                "The maximum allowable credits per semester are 22 for the Normal Semester and 11 for the Special Semester, not including audit course credits. Students under an Academic Probationary Period are restricted to a maximum of 15 credits in the Normal Semester and 9 credits in the Special Semester.",
+                "During the Normal Semester, students are permitted to take a maximum of 22 credits and up to 11 credits during the Special Semester, excluding credits for audit courses. If on Academic Probation, the maximum limits are 15 credits for the Normal Semester and 9 credits for the Special Semester."
+            ]
+        },
+        {
+            "tag": "withdraw from semester",
+            "patterns": [
+                "Is it possible to withdraw from a semester due to personal reasons?",
+                "Am I allowed to take a leave of absence from a semester for personal matters?",
+                "Is there an option to suspend my studies for personal reasons during a semester?",
+                "Can I request to defer my semester due to personal circumstances?",
+                "Is withdrawing from a semester permitted for personal issues?",
+                "How do I go about withdrawing from a semester for personal reasons?",
+                "Are there provisions for students to temporarily leave a semester due to personal issues?",
+                "What are the procedures for taking a break from a semester due to personal reasons?",
+                "Is there a process for students to pause their studies for personal reasons mid-semester?",
+                "Can I apply for a semester withdrawal due to personal circumstances?"
+            ],
+            "responses": [
+                "A student can request to withdraw from a semester after completing at least one semester of their program, except in cases of medical reasons. To withdraw, an application must be submitted to the Dean of the Faculty. Withdrawal due to personal reasons is permissible for a maximum of two semesters during the entire course of study.",
+                "Students are eligible to withdraw from a semester after completing at least one semester of their program, unless it is due to medical grounds. The application for withdrawal must be directed to the Dean of the Faculty. Withdrawals for personal reasons are limited to two semesters over the course of their academic program.",
+                "Withdrawal from a semester is permitted only after a student has completed at least one semester of their study program, except in cases of medical necessity. The application for withdrawal must be addressed to the Dean of the Faculty. Students can withdraw on personal grounds for up to two semesters during their academic tenure.",
+                "After completing at least one semester of their program, a student may seek approval to withdraw from a semester, except in cases of medical circumstances. The request for withdrawal should be submitted to the Dean of the Faculty. Withdrawals based on personal reasons are limited to a maximum of two semesters throughout the duration of the student's studies.",
+                "Students are permitted to withdraw from a semester after completing at least one semester of their program, with exceptions for medical issues. Applications for withdrawal must be directed to the Dean of the Faculty. Withdrawal due to personal reasons is restricted to two semesters during the entire duration of the student's academic journey."
+            ]
+        },
+        {
+            "tag": "withdraw from semester medical reason",
+            "patterns": [
+                "What is the procedure to apply for semester withdrawal due to medical reasons?",
+                "How can I request a withdrawal from the semester citing medical grounds?",
+                "What are the steps involved in applying for a medical withdrawal from the semester?",
+                "Is there a specific process for students to withdraw from the semester for medical reasons?",
+                "How do I initiate a semester withdrawal due to medical circumstances?",
+                "Where can I find information on applying for a medical withdrawal from the semester?",
+                "Are there forms or documents required to apply for semester withdrawal on medical grounds?",
+                "Who should I contact to start the process of withdrawing from the semester due to medical reasons?",
+                "What documentation is needed to support a semester withdrawal request for medical purposes?",
+                "Is there a deadline or timeframe to apply for semester withdrawal due to medical issues?"
+            ],
+            "responses": [
+                "Application for withdrawal from a semester on medical reasons must be supported by a medical report issued by a Registered Medical Practitioner from the University Student Health Clinic, Government Hospital, University of Malaya Medical Centre, Teaching Hospital, Private Medical Centre, or relevant documentary proof. Applications must be made to the Dean of the Faculty.",
+                "To apply for withdrawal from a semester on medical grounds, you must provide a medical report from a Registered Medical Practitioner at the University Student Health Clinic, Government Hospital, University of Malaya Medical Centre, Teaching Hospital, or Private Medical Centre, along with relevant documentary proof. The application should be submitted to the Dean of the Faculty.",
+                "Students seeking withdrawal from a semester for medical reasons need to submit a medical report from a Registered Medical Practitioner affiliated with the University Student Health Clinic, Government Hospital, University of Malaya Medical Centre, Teaching Hospital, or Private Medical Centre, as well as any relevant documentary proof. The application must be directed to the Dean of the Faculty.",
+                "Withdrawal applications for a semester based on medical reasons require a medical report from a Registered Medical Practitioner at the University Student Health Clinic, Government Hospital, University of Malaya Medical Centre, Teaching Hospital, or Private Medical Centre, and relevant documentary proof. These applications must be sent to the Dean of the Faculty.",
+                "For semester withdrawal due to medical reasons, a medical report from a Registered Medical Practitioner at the University Student Health Clinic, Government Hospital, University of Malaya Medical Centre, Teaching Hospital, or Private Medical Centre, along with relevant documentary proof, is necessary. Applications should be addressed to the Dean of the Faculty."
+            ]
+        },
+        {
+            "tag": "apply credit transfer",
+            "patterns": [
+                "What is the process to apply for credit transfer?",
+                "How can I transfer credits from another institution to my current program?",
+                "What steps do I need to follow to initiate a credit transfer?",
+                "Is there a specific form or application required for credit transfer?",
+                "Can I transfer credits earned from previous studies to my current university?",
+                "How do I request a credit transfer for courses completed elsewhere?",
+                "Are there eligibility criteria for applying for credit transfer?",
+                "What documentation is needed to support a credit transfer application?",
+                "Who should I contact to start the credit transfer process?",
+                "Are there deadlines for submitting a credit transfer application?"
+            ],
+            "responses": [
+                "To apply for credit transfer, submit your application to the Dean of the Faculty of your program of study by the Friday of the fourth lecture week of the Normal Semester. Follow the procedure prescribed by the University. Applications received after this period will be considered in the subsequent semester.",
+                "Applications for credit transfer must be submitted to the Dean of the Faculty of your program of study no later than the Friday of the fourth lecture week of the Normal Semester, following the University's prescribed procedure. Applications received after this deadline will be reviewed in the next semester.",
+                "To apply for credit transfer, ensure your application reaches the Dean of the Faculty of your program of study by the specified deadline: Friday of the fourth lecture week of the Normal Semester. Adhere to the University's prescribed procedure. Late applications will be considered in the following semester.",
+                "Credit transfer applications should be made to the Dean of the Faculty of your program of study no later than the Friday of the fourth lecture week of the Normal Semester, following the University's procedure. Applications submitted after this deadline will be processed in the subsequent semester.",
+                "For credit transfer, submit your application to the Dean of the Faculty of your program of study by the Friday of the fourth lecture week of the Normal Semester, as per the University's procedure. Applications received beyond this timeframe will be reviewed in the next semester."
+            ]
+        },
+        {
+            "tag": "scholarship received fees",
+            "patterns": [
+                "If I receive a scholarship sponsorship, am I still required to pay tuition fees?",
+                "Does receiving a scholarship sponsorship exempt me from paying tuition fees?",
+                "Should I make tuition fee payments if I've been awarded a scholarship sponsorship?",
+                "Do I need to pay tuition fees if I've been granted a scholarship sponsorship?",
+                "Am I obligated to pay tuition fees if I've accepted a scholarship sponsorship?",
+                "Will I still be responsible for tuition fees after accepting a scholarship sponsorship?",
+                "If I receive a scholarship, do I still need to settle my tuition fees?",
+                "After being offered a scholarship sponsorship, do I need to worry about tuition fee payments?",
+                "Does a scholarship sponsorship mean I don't have to pay tuition fees?",
+                "Should I continue with tuition fee payments if I've secured a scholarship sponsorship?"
+            ],
+            "responses": [
+                "Students who have officially received full sponsorship that directs payment to the university must promptly send a copy of their sponsorship letter to the Bursar Department via email at bursar_student@um.edu.my. Failure or delay in submitting this letter may result in delays in the sponsor's payment process, for which the university bears no responsibility. Students receiving direct sponsorship not routed through the university are categorized as non-sponsored and must settle all fees before new student registration.",
+                "If students have received full sponsorship where payment is made directly to the university, they must ensure to forward a copy of their sponsorship letter promptly to the Bursar Department via email bursar_student@um.edu.my. Failure to do so or delays in submission could lead to complications in the sponsor's payment process, with the university not liable for resulting issues. Students receiving sponsorship directly from sponsors (without payment to the university) are considered non-sponsored and must clear all fees before new registration.",
+                "Students who receive full sponsorship with payments made to the university are required to submit a copy of their sponsorship letter promptly to the Bursar Department via email bursar_student@um.edu.my. Delays or failure to submit this letter may impact the sponsor's payment processing, and the university holds no responsibility for any ensuing problems. Those receiving sponsorship directly from sponsors (not via the university) are classified as non-sponsored and must settle all fees before new student registration.",
+                "Upon officially receiving full sponsorship where payment is directed to the university, students must send a copy of their sponsorship letter to the Bursar Department via email bursar_student@um.edu.my without delay. Any failure or delay in submission may disrupt the sponsor's payment process, for which the university disclaims responsibility. Students receiving sponsorships directly from sponsors (bypassing the university) are deemed non-sponsored and must clear all fees prior to new student registration.",
+                "Students who are recipients of full sponsorship with payments designated for the university must ensure the prompt submission of their sponsorship letter to the Bursar Department via email bursar_student@um.edu.my. Failure or delay in submitting this letter may result in delays in the sponsor's payment process, for which the university assumes no liability. Students receiving direct sponsorship from sponsors (not routed through the university) are considered non-sponsored and must settle all fees before new student registration."
+            ]
+        }
+    ]
+}
