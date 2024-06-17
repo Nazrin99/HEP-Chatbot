@@ -3,11 +3,15 @@ import random
 import time
 from chat_backend import chat
 
+# Caller functions
+
 def response_generator(user_prompt: str):
     response = chat(user_prompt)
     for word in response.split():
         yield word + " "
         time.sleep(0.05)
+
+# Frontend Code
 
 st.image("um.jpg", use_column_width=True)
 st.title("HEP Chatbot")
