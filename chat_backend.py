@@ -60,6 +60,3 @@ def chat(user_input):
         response = "Apologies. I do not have enough knowledge or resources to answer that question for now. Please direct your question to the HEP department at hep@um.du.my or by calling 03-79673506"
 
     return response
-
-if __name__ == '__main__':
-    print(chat("Where can I find information on course registration for each semester?"))
